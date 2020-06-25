@@ -5,6 +5,8 @@ import { EventsAppComponent } from './events-app.component';
 import { EventsListComponent } from './events/events-list.component';
 import { EventThumbnailComponent } from './events/events-thumbnail.component';
 import { NavbarComponent } from './nav/navbar.component';
+import { EventService } from './events/shared/event.service';
+
 
 //source location from github - https://github.com/jmcooper/angular-fundamentals-files
 
@@ -18,6 +20,8 @@ import { NavbarComponent } from './nav/navbar.component';
     EventThumbnailComponent,
     NavbarComponent
   ],
+  
+  providers: [EventService],
   bootstrap: [EventsAppComponent]
 })
 
