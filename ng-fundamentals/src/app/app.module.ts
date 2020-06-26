@@ -7,6 +7,7 @@ import { EventThumbnailComponent } from './events/events-thumbnail.component';
 import { NavbarComponent } from './nav/navbar.component';
 import { EventService } from './events/shared/event.service';
 import { ToastrService } from './common/toastr.service';
+import { EventDetailsComponent } from './events/event-details/event-details.component';
 
 
 //source location from github - https://github.com/jmcooper/angular-fundamentals-files
@@ -19,7 +20,8 @@ import { ToastrService } from './common/toastr.service';
     EventsAppComponent,
     EventsListComponent,
     EventThumbnailComponent,
-    NavbarComponent
+    NavbarComponent,
+    EventDetailsComponent
   ],
 
   providers: [
